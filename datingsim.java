@@ -78,10 +78,55 @@ public class datingsim
                 System.out.println("You guys talk and find out you guys have a lot incomin he asks if you want to go to his house what do you say");
                 System.out.println("Yes or no");
             }
+            else if (viki.equalsIgnoreCase("no"))
+            {
+                System.out.println("you leave and say no, you never see him ever ");
+                System.out.println("You Loose");
+            }
+            else if (viki.equalsIgnoreCase("yes"))
+            {
+                System.out.println("you go to his house and find out he is a horter.  You tell him you have something to do and leaves");
+                System.out.println("you never talk to him ever again.  You loose");
+            }
+            else if (viki.equalsIgnoreCase("stay home"))
+            {
+                System.out.println("you never hear from them again.  you come to the conclusion that you will be lonly forever");
+                System.out.println("You are lonly forever.  You loose");
+            }
+             else if (viki.equalsIgnoreCase("go"))
+            {
+                System.out.println("You guys date for 3 months and you guys get married and have 2 babies");
+                System.out.println("but you get in a car crash and die");
+            }
              else if (viki.equalsIgnoreCase("trashy"))
             {
-                System.out.println("when you and him get to your house for dinner and you say we will have 3 mounhth old romin he does not look happy he sayes he has to go.");
+                System.out.println("when you and him get to your house for dinner and you say we will having ramen, he does not look happy he sayes he has to go.");
                 System.out.println("do you grab his hand or let him go");
+            }
+            else if (viki.equalsIgnoreCase("follow her home"))
+            {
+                System.out.println("You follow her home and hide behind a bush.  She sees you and calls the cops you get arrested and you are put in jail");
+                System.out.println("You Loose.  You will be lonely forever");
+            }
+            else if (viki.equalsIgnoreCase("end") || viki.equalsIgnoreCase("powerdown") || viki.equalsIgnoreCase("stop") || viki.equalsIgnoreCase("leave") || viki.equalsIgnoreCase("bye"))
+            {
+                System.out.println("sa dude");   
+                System.exit(0);
+            }
+            else if (viki.equalsIgnoreCase("leave in shame"))
+            {
+                System.out.println("You drive home crying.  You get home chug a cold one while crying yourself to sleep.");
+                System.out.println("You wake up and get a text from her she says she can hang out today you say yes.");
+            }
+            else if (viki.equalsIgnoreCase("grab his hand"))
+            {
+                System.out.println("You grab his hand and he pulls it away you guys stair at each other until he says he has to go  ");
+                System.out.println("You eat your ramen while petting your get you relize you will be lonly forever.  You loose");
+            }
+            else if (viki.equalsIgnoreCase("let him go"))
+            {
+                System.out.println("right when he leaves you grab your phone and make a tinder.  The next day a guy says he would like to go out.");
+                System.out.println("The profile pic is a picture of a homeless guy with no teeth.  You start crying.  You loose");
             }
             else
             {
